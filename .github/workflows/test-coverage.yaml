@@ -123,7 +123,7 @@ jobs:
 
       - name: Get branch names 🌿
         id: branch-name
-        uses: tj-actions/branch-names@v7.0.7
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Checkout gh-pages 🛎
         if: >-
@@ -303,7 +303,7 @@ jobs:
     steps:
       - name: Get branch names 🌿
         id: branch-name
-        uses: tj-actions/branch-names@v7.0.7
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Checkout repo 🛎
         uses: actions/checkout@v3
